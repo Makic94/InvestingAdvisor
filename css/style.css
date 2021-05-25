@@ -10,10 +10,12 @@
     margin-top: 90px;
 }
 header{
+    overflow: hidden;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
@@ -34,10 +36,13 @@ header.sticky{
 }
 #TireList{
     padding-top: 100px;
-    padding-bottom: 75px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
 }
 #info1{
     padding-bottom: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 #info2{
     padding-bottom: 100px;
@@ -48,3 +53,18 @@ header.sticky{
     right: 20px;
     display: none;
   }
+#cText{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.col-md-auto{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 150px;
+}
+#card1{
+    position: static;
+}
+#card2{
+    position: static;
+}
