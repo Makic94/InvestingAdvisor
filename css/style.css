@@ -58,9 +58,9 @@ header.sticky{
     padding-left: 30px;
 }
 .col-md-auto{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 150px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 100px;
 }
 #card1{
     position: static;
