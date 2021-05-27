@@ -39,7 +39,9 @@
     position: absolute;
     margin-right: -250px;
 }
-
+#menu-toggle{
+    margin-top: 5px;
+}
 /* Sidebar Styles */
 
 .sidebar-nav {
@@ -59,7 +61,7 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #dfdfdf;
 }
 
 .sidebar-nav li a:hover {
@@ -88,6 +90,52 @@
     background: none;
 }
 
+#div1{
+    margin:0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 5px;
+    background-color: black;
+}
+
+#div2{
+    background-color: #999999;
+}
+
+#but1{
+    padding: 5px;
+    background-color: #999999;
+}
+
+#but1:focus
+{
+    color:rgb(255, 255, 255);
+}
+
+#divS1{
+    margin:0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 5px;
+    background-color: black;
+}
+
+#divS2{
+    background-color: #999999;
+}
+
+#butS1{
+    padding: 5px;
+    background-color: #999999;
+}
+
+#butS1:focus
+{
+    color:rgb(255, 255, 255);
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
@@ -114,4 +162,5 @@
         position: relative;
         margin-right: 0;
     }
+
 }
