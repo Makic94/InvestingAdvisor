@@ -56,6 +56,10 @@ body {
     border-color: #eee
 }
 
+form, input, label, p {
+    color: white !important;
+}
+
 .form-check-label {
     margin-top: 2px;
     font-size: 14px

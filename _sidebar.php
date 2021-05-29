@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="js/bootstrap.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <title>Investing Advisor</title>
-</head>
-<body>
-    <div id="wrapper">
+<div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                   <a class="link-light" href="index.html"><i class="bi bi-alt"></i> Investing<small class="text-muted"> Advisor</small></a>
+                   <a class="link-light" href="index.php"><i class="bi bi-alt"></i> Investing<small class="text-muted"> Advisor</small></a>
                 </li>
                 <br>
                 <li>
@@ -75,7 +61,7 @@
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#">Edit Profile</a>
                 </li>
                 <li>
                     <a href="#">Logout</a>
@@ -84,25 +70,3 @@
         </div>
         <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="bi bi-justify"></i></a>
         <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-    
-     <!-- Menu Toggle Script -->
-    <script src="js/menuToggle.js"></script>
-</body>
-</html>
