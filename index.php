@@ -1,3 +1,9 @@
+<?php
+include_once 'includes/autoLoader.inc.php';
+session_start();
+$obj=new SessionContr();
+$obj->checkSession();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +18,9 @@
     <title>Investing Advisor</title>
 </head>
 <body>
-    <?php include_once("includes2.php"); ?>
+    <div id="wrapper">
+    <?php include_once("includes/includes2.php"); ?>
+    </div>
 <!-- Menu Toggle Script -->
 <script src="js/menuToggle.js"></script>
 </body>

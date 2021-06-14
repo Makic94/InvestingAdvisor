@@ -13,7 +13,7 @@
     <title>Investing Advisor</title>
 </head>
 <body>
-    <?php include_once("includes.php")?>
+    <?php include_once("includes/includes.php")?>
       <!-- Loading script -->
   <script src="js/loader.js"></script>
   <!-- Movable Header script-->

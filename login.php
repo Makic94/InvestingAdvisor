@@ -1,3 +1,6 @@
+<?php
+include_once 'includes/autoLoader.inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,8 +24,8 @@
                 <div class="card px-5 py-5"> <span class="circle"><a class="link-light" href="overview.php"><i class="bi bi-alt"></i></a></span>
                     <h1 class="mt-3">Welcome <br> <small class="text-muted">Back</small></h1>
                     <p></p>
-                    <div class="form-input"> <i class="bi bi-person"></i> <input type="text" class="form-control" placeholder="Username"> </div>
-                    <div class="form-input"> <i class="bi bi-lock"></i> <input type="text" class="form-control" placeholder="Password"> </div>
+                    <div class="form-input"> <i class="bi bi-person"></i> <input type="text" class="form-control"  id='username' name='username' placeholder="Username"> </div>
+                    <div class="form-input"> <i class="bi bi-lock"></i> <input type="password" class="form-control" id='password' name='password' placeholder="Password"> </div>
                     <button class="btn btn-primary mt-4 signup">Start coding now</button>
                     <div class="text-center mt-3"> <span>Or continue with these social profiles</span> </div>
                     <div class="d-flex justify-content-center mt-4"> <span class="social"><i class="bi bi-google"></i></span> <span class="social"><i class="bi bi-facebook"></i></span> <span class="social"><i class="bi bi-twitter"></i></span> <span class="social"><i class="bi bi-linkedin"></i></span> </div>
@@ -32,6 +35,10 @@
         </div>
     </div>
     </form>
+  <?php
+  $obj=new UsersContr();
+  $obj->checkUser();
+  ?>
   </div>
   <!-- Loading script -->
   <script src="js/loader.js"></script>
